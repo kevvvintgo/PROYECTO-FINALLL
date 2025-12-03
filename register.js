@@ -21,8 +21,9 @@ function registrar() {
         alert(data.message);
 
         if (data.ok) {
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     })
     .catch(err => console.error("Error al registrar:", err));
 }
+
