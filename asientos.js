@@ -89,14 +89,14 @@ reservarBtn.addEventListener("click", async () => {
     const token = localStorage.getItem("token");
     if (!token) {
         alert("Debes iniciar sesión antes de reservar.");
-        window.location.href = "login.html";
+        window.location.href = "index.html";
         return;
     }
 
     const userData = decodeToken(token);
     if (userData.role === "invitado") {
     alert("Debes iniciar sesión con una cuenta real para reservar asientos.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return;
 }
 
