@@ -1,0 +1,16 @@
+body {
+    background-image: url(fondo2.gif);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.card {
+    background-color: rgba(1, 1, 1, 0.679);
+    margin-top: 185px;
+    padding: 20px;
+    width: 300px;
+    margin-left: 510px;
+    border-radius: 10px;
+}

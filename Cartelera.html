@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartelera – CLAP!</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .pelicula {
+            background: #222;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .pelicula img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .titulo {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 Cartelera</h1>
+
+    <div id="contenedor" class="contenedor"></div>
+
+    <script src="cartelera.js"></script>
+</body>
+</html>

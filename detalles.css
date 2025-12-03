@@ -1,0 +1,49 @@
+body {
+            background: #111;
+            color: white;
+            font-family: Arial;
+            padding: 20px;
+        }
+        .contenedor {
+            max-width: 800px;
+            margin: auto;
+            margin-top: 156px;
+            background: #222;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .preventa {
+    background: #ff0055;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
+        .info {
+            margin-left: 20px;
+        }
+        .fila {
+            display: flex;
+            gap: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            border: none;
+            background: #ff4747;
+            color: white;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #ff6363;
+        }

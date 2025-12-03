@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clap! | Login </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Iniciar Sesion</h2>
+        <input id="email" type="email" placeholder="Correo">
+        <br><br>
+        <input id="password" type="password" placeholder="Contraseña">
+        <br><br>
+        <button onclick="login()">Entrar</button>
+        <br><br>
+        <p>¿No tienes una cuenta?<a href="register.html">Crear Una</a></p>
+        <br>
+        <button class="guest" onclick="continuarInvitado()">Continuar sin cuenta</button>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

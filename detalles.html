@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles de la película</title>
+    <link rel="stylesheet" href="detalles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <button onclick="history.back()">⬅ Regresar</button>
+
+        <h1 id="titulo"></h1>
+
+        <div class="fila">
+            <img id="poster" src="" alt="Poster">
+            <div class="info">
+                <p><b>Género:</b> <span id="genero"></span></p>
+                <p><b>Duración:</b> <span id="duracion"></span></p>
+                <p><b>Sinopsis:</b> <span id="sinopsis"></span></p>
+                <p><b>Lanzamiento:</b> <span id="lanzamiento"></span></p>
+            </div>
+        </div>
+    <button id="btnAsientos">Ver Asientos</button>
+
+        <h3>Funciones:</h3>
+        <ul id="funciones"></ul>
+    </div>
+
+    <script src="detalles.js"></script>
+</body>
+</html>
